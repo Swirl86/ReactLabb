@@ -32,7 +32,6 @@ function EmployeeList() {
 
     function handleAddEmployee() {
         setEmployess(function (prevEmployees) {
-            console.log(prevEmployees);
             return [...prevEmployees, employeeData[count]];
         });
     }
