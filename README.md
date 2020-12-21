@@ -1,4 +1,4 @@
-# Recruitment-app
+# ReactLabb: Recruitment-app
 
 - Ni ska Skapa en enkel rekryterings applikation med React.
 - Applikationen ska ha en lista med personer som kan se på startsidan och en knapp för att lägga till en ny person.
