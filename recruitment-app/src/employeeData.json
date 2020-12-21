@@ -1,0 +1,19 @@
+[{
+    "name": "Henning Hermansen",
+    "email": "Henning.Hermansen@fakeemail.com",
+    "phone": "0696-5327762",
+    "skills": "Python, Django, HTML, CSS",
+    "avatar": "https://i.imgur.com/t9HFQvX.png"
+}, {
+        "name": "Mari Hilstad",
+        "email": "Mari.Hilstad@fakeemail.com",
+        "phone": "0303-8407312",
+        "skills": "Angular, CSS, HTML, Javascript",
+        "avatar": "https://i.imgur.com/TUhCrsY.png"
+    }, {
+        "name": "Lea.Berntsen",
+        "email": "Anna.Skomedal@fakeemail.com",
+        "phone": "042-4930670",
+        "skills": "MySQL, Node.js, Express, HTML, CSS, Javascript",
+        "avatar": "https://i.imgur.com/ebHfuth.png"
+}]
