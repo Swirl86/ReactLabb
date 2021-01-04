@@ -31,7 +31,7 @@ function EmployeeList() {
     const [count, setCount] = useState(0);
 
     function handleAddEmployee() {
-        setEmployess(function (prevEmployees) {
+        setEmployess((prevEmployees) => {
             return [...prevEmployees, employeeData[count]];
         });
     }
@@ -53,18 +53,9 @@ function EmployeeList() {
                 Add Employee
             </button>
             <div>
-                {employees.map(function (employee, i) {
-                    return (
-                        <Employee
-                            key={i}
-                            name={employee.name}
-                            email={employee.email}
-                            phone={employee.phone}
-                            skills={employee.skills}
-                            avatar={employee.avatar}
-                        />
-                    );
-                })}
+                {employees.map((employee) => (
+                    <Employee EmployeesData={employee} />
+                ))}
             </div>
         </div>
     );

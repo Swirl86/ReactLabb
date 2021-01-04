@@ -1,6 +1,6 @@
-function Employee(EmployeesData) {
+function Employee({ EmployeesData }) {
     return (
-        <div className="EmployeeDiv ">
+        <div className="EmployeeDiv">
             <div>
                 <img
                     className="avatar"
@@ -10,12 +10,16 @@ function Employee(EmployeesData) {
             </div>
             <div>
                 <h2>{EmployeesData.name}</h2>
-                <b>Email:</b> {EmployeesData.email}
                 <p>
-                    <b>Phone:</b> {EmployeesData.phone}
+                    <strong>Email: </strong>
+                    {EmployeesData.email}
                 </p>
                 <p>
-                    <b>Skills: </b>
+                    <strong>Phone: </strong>
+                    {EmployeesData.phone}
+                </p>
+                <p>
+                    <strong>Skills: </strong>
                     {EmployeesData.skills}
                 </p>
             </div>
